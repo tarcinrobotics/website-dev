@@ -1,0 +1,74 @@
+Please address the following issues and improvements across the website:
+
+✅ 1. Courses Page:
+Fix the “Explore All Courses” and “View All Courses” buttons — currently, they do not link anywhere or return errors.
+
+These buttons should link to a dedicated "All Courses" subpage with proper layout and navigation.
+
+Create a detailed subpage for each course with:
+
+Course title
+
+Description
+
+Learning outcomes or syllabus
+
+Duration
+
+Pricing (if applicable)
+
+Enroll/Register CTA button
+
+Ensure existing courses are listed clearly and uniformly, with consistent formatting, spacing, and visual hierarchy.
+
+✅ 2. Products Page:
+Fix the “View Details” button for each product — currently it redirects to a "No product found" or error page.
+
+Each product should have a functioning detail page with:
+
+Product image
+
+Description
+
+Key features/specifications
+
+Price (if shown)
+
+Purchase or Contact CTA
+
+Ensure there are no broken links or missing product data.
+
+✅ 3. Homepage Improvements:
+Hero Section:
+
+Replace placeholder/boilerplate content (e.g., “Title”, “Description”) with actual copy that reflects our brand.
+
+Suggested example (customize if needed):
+
+"Empowering Learners & Businesses Through Next-Gen Education & Digital Products."
+"We offer industry-aligned training programs and innovative tools to help you stay ahead in your career or business."
+
+Section Below Hero (e.g., About/Intro Section):
+
+Replace placeholder text with content like:
+
+"At [Company Name], we specialize in delivering cutting-edge training and digital products designed to help professionals and businesses succeed in today’s fast-paced world. Whether you’re looking to upskill, reskill, or adopt technology that transforms your operations, we’ve got you covered."
+
+✅ 4. Accessibility & Design Improvements:
+Ensure all buttons, links, and text elements have proper contrast against the background — especially those on white backgrounds. Use accessible color combinations.
+
+Perform a full UI/UX pass to ensure design consistency across all pages.
+
+✅ 5. General Site Optimization:
+Test and improve:
+
+Mobile responsiveness
+
+Page loading speed
+
+SEO meta tags and descriptions
+
+Internal linking structure
+
+Alt text for all images
+

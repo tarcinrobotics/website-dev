@@ -1,0 +1,114 @@
+You are the Global Principal Frontend Architect for Tarcin Robotic LLP—a leading deep-tech Start up shaping the future of robotics, IoT, AI and edutech worldwide. Generate a **complete**, **production-ready** React (JSX) codebase—no placeholders—covering every page, route, component, API, style, animation, and CI/CD pipeline. It must be **ultra performant**, **fully accessible**, **SEO-optimized**, **internationalized**, and **battle-tested** for global enterprise scale.
+
+--------------------------------------------
+1. OVERALL ARCHITECTURE & STANDARDS
+--------------------------------------------
+• **Framework**: Next.js App Router (full SSR/ISR) or CRA+React-Router (CSR) with universal API routes  
+• **Languages**: JavaScript (ES2024), code typed as JSDoc-ready for future TS rollout  
+• **Styling**:  
+  – **Design System**: Atomic Design in `src/components/ui` with Figma tokens export  
+  – **Tailwind CSS** for utility + CSS Modules for custom scopes  
+  – **Styled Components** for theming/dark-mode  
+  – **PostCSS** + autoprefixer  
+• **Animations**: Framer Motion for component lifecycles, GSAP+ScrollTrigger for scroll-driven narratives, Lottie for vector micro-animations  
+• **3D & Visual Effects**: React Three Fiber + Drei + Postprocessing (Bloom, SSAO, Chromatic, FXAA), tsParticles background effects  
+• **Data Fetching**: React Query (TanStack) or SWR, with global error/busy toasts, 1h revalidate  
+• **API Layer**: Next.js API routes (or Express microservices):  
+   – `/api/reviews` (fetch top-rated Google Place reviews)  
+   – `/api/newsletter` (Mailchimp subscribe)  
+   – `/api/events` (Calendar/CMS)  
+   – `/api/careers` (Airtable/Greenhouse)  
+   – `/api/s2p` (ERP integration stub)  
+• **Testing**:  
+   – **Unit**: Jest + React Testing Library  
+   – **E2E**: Cypress with reusable fixtures  
+   – **Visual**: Chromatic Storybook snapshots  
+• **CI/CD**: GitHub Actions → run lint/test/build → deploy to Vercel/Netlify  
+• **Quality**: ESLint (Airbnb + custom rules), Prettier, import/order, commitlint  
+
+--------------------------------------------
+2. PROJECT & FOLDER STRUCTURE
+--------------------------------------------
+/src  
+├─ /app (Next.js) or /pages  
+│   ├─ index.jsx, about.jsx, services.jsx, products.jsx, courses.jsx, events.jsx, blog/[slug].jsx, careers.jsx, contact.jsx, s2p.jsx  
+│   └─ _app.jsx, _document.jsx, layout.jsx  
+├─ /components  
+│   ├─ /ui (Button, Input, Card, Modal, Tooltip, Spinner, ErrorBoundary)  
+│   ├─ Navbar.jsx, Footer.jsx, SEO.jsx, ThemeToggle.jsx  
+│   └─ Chart.jsx, Map.jsx  
+├─ /sections  
+│   ├─ /Home (Hero.jsx, OrbNarrative.jsx, Features.jsx, Partners.jsx, Stats.jsx, Testimonials.jsx, CTA.jsx, Newsletter.jsx)  
+│   ├─ /About (Mission.jsx, Team.jsx, Timeline.jsx, Values.jsx)  
+│   ├─ /Services, /Products, /Courses, /Events, /Blog, /Careers, /Contact, /S2P (each with fine-grained subsections)  
+├─ /hooks (useGoogleReviews.js, useTheme.js, useS2PData.js, useScrollPanels.js)  
+├─ /utils (apiClient.js, constants.js, dateFormat.js, seo.js, intl.js)  
+├─ /public (images, svg, gltf models, Lottie JSON)  
+└─ /styles (globals.css, tailwind.config.js, postcss.config.js)  
+
+--------------------------------------------
+3. DETAILED PAGE BLUEPRINTS
+--------------------------------------------
+A. **Home (`/`)**  
+1. **Hero**:  
+   - Full-screen 3D “Tech Chip” story: GSAP ScrollTrigger drives chip entrance, charge glow, circuit-draw, node pulses.  
+   - Drei Environment (HDRI), postprocessing bloom + film grain + vignette.  
+   - Overlay: split-text headline reveal, subtitle fade, dual CTA buttons with wave hover.  
+2. **Orb Narrative**: 3D sphere with HTML overlays, scroll-linked panels that rotate orb to reveal offerings.  
+3. **Features**: 3×2 grid cards; each icon draws in with SVG stroke, text slides up.  
+4. **Partners**: infinite carousel, logos desaturate → color on hover, click to case study.  
+5. **Stats**: animated count-up with Lottie backgrounds, anchored to viewport.  
+6. **Testimonials**: auto-scroll carousel of *8* top Google 5★ reviews; card clamp + “…” + avatar + star icons.  
+7. **CTA Strip**: full-width wave-animated gradient + blue CTA.  
+8. **Newsletter**: sticky footer form → Mailchimp, client+server validation, success modal.  
+
+B. **About (`/about`)**  
+- **Mission**: Lottie scroll animation sync.  
+- **Team**: interactive 3D‐tilt cards, modal on click with bio + LinkedIn.  
+- **Timeline**: horizontal GSAP timeline with pinned scroll, milestone tooltips.  
+- **Values**: flip cards in grid, icon + micro-animation.  
+
+C. **Services (`/services`), Products (`/products`), S2P (`/s2p`)**  
+- **Services**: tabbed UI, each service page with case studies grid + lightbox + testimonial sub-carousel.  
+- **Products**: grid + filter, each product detail loads GLTF model, inspect parts, specs table toggles.  
+- **S2P**: 5-step Source-to-Pay flow:  
+  1. Hero: 3D animated SVG path drawing of process, with interactive hotspots.  
+  2. **ModulesList**: flip cards (Procure, Invoicing, Supplier Portal, Analytics).  
+  3. **IntegrationGrid**: ERP/CRM logos with tooltips.  
+  4. **FlowDiagram**: GSAP path draw.  
+  5. **DemoRequest**: dynamic form with date-picker, file upload.  
+
+D. **Courses**: curriculum accordion, instructor spotlight with hover, enroll modal.  
+E. **Events**: calendar view + list view toggle, detail pages with agenda timeline.  
+F. **Blog**: MDX posts, syntax-highlight, author widget, related posts, comments stub.  
+G. **Careers**:  
+   - **OpenRoles**: searchable table + apply modals.  
+   - **Culture3D**: small R3F office panorama embed.  
+   - **Benefits**: icon grid with animated counters.  
+   - **ApplyForm**: multi-step file upload, terms check, success flow.  
+H. **Contact**: form (Recaptcha), custom-styled Google Map, FAQ accordion, support CTA.  
+
+--------------------------------------------
+4. CROSS-CUTTING REQUIREMENTS
+--------------------------------------------
+• **Internationalization**: react-intl or next-i18next, English + Tamil + Arabic.  
+• **Accessibility**: WCAG 2.2 AA: keyboard nav, ARIA labels, focus outlines, color contrast.  
+• **SEO & Performance**:  
+  – Dynamic `next/head` meta, JSON-LD schema (Organization, BreadcrumbList, FAQ).  
+  – Lighthouse score ≥ 90: lazy-load images/models, code-split, image optimization (Next/Image).  
+• **Theming**: CSS variables, dark/light toggle, persisted in localStorage, transitions.  
+• **State Management**: React Context where needed, minimised global state.  
+• **Error Handling**: ErrorBoundary around every major section + API error screens.  
+• **Dev Tools**: Storybook with full docs, Chromatic visual tests, VSCode Remote Container.  
+
+--------------------------------------------
+5. DELIVERY
+--------------------------------------------
+For **each** file (`.jsx`, `.css`, `.config.js`):  
+- Provide the **complete** code block.  
+- Include comments for every non-trivial block.  
+- Configuration: `tailwind.config.js`, `postcss.config.js`, `.eslintrc.js`, `jest.config.js`.  
+- `package.json` with all dependencies, scripts (`dev`, `build`, `lint`, `test`, `storybook`).  
+- **Deployment** instructions: environment variables, Vercel/Netlify setup.  
+
+This is your **single prompt**—deliver **everything** from **A to Z** and produce a **MNC-grade**, **award-winning**, **ultra-modern** React site.  

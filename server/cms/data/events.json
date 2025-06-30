@@ -1,0 +1,57 @@
+[
+  {
+    "id": "5d9446fc-600d-4265-b5eb-73f90649e769",
+    "title": "Tech Program",
+    "description": "TechSprint is a hands-on, career-oriented training program designed to equip students and aspiring professionals with in-demand technology skills. This program blends theoretical learning with real-world project experience, ensuring that participants are industry-ready and confident in their technical abilities.",
+    "date": "2025-02-26",
+    "endDate": "2025-02-26",
+    "location": "madurai",
+    "registrationLink": "",
+    "image": "",
+    "isUpcoming": false
+  },
+  {
+    "id": "cf01d323-4dd5-4420-819d-4a5a11b5684e",
+    "title": "Hackathon - TCE",
+    "description": "CodeAsthram Challenge wraps up today!\n\nTime really does fly when you’re deep in nested loops, our 20‑day Hackathon on CodeAsthram wraps up today! A big thank‑you to Thiagarajar College of Engineering ’s Department of Information Technology for the seamless collaboration. \n\nHats off to the 60 teams who turned block logic into real‑world solutions. 🏆\n\nCash prizes await our top three - winners revealed soon!",
+    "date": "2025-05-26",
+    "endDate": "2025-05-26",
+    "location": "madurai",
+    "registrationLink": "",
+    "image": "",
+    "isUpcoming": false
+  },
+  {
+    "id": "5badd8a8-3cc1-4cd4-859f-051029916168",
+    "title": "Tech Unpacked",
+    "description": "A practical orientation into AI, Data Science and Workflow Automation",
+    "date": "2025-05-16",
+    "endDate": "",
+    "location": "madurai",
+    "registrationLink": "",
+    "image": "",
+    "isUpcoming": false
+  },
+  {
+    "id": "e8392de1-caa2-417a-9056-f1e41ef8a99c",
+    "title": "Hackathon",
+    "description": "We appreicate our CAMPUS AMBASSADORS of hackhive 1.1 for their ddedication in planning and executing the event with great precision and excellence.",
+    "date": "2025-06-04",
+    "endDate": "2025-06-04",
+    "location": "madurai",
+    "registrationLink": "",
+    "image": "",
+    "isUpcoming": false
+  },
+  {
+    "id": "0fc598e0-0a25-4546-a270-323c6bc7454d",
+    "title": "Websprint",
+    "description": "We are excited to announce the launch of our WebSprint Program, a focused and intensive training initiative designed to empower aspiring developers with full-stack web development skills. This program covers both frontend and backend technologies, enabling participants to build complete, scalable, and professional web applications.\n\nParticipants will work on real-world projects, guided by industry experts, while learning modern tools and frameworks such as React, Node.js, Express, MongoDB, Git, RESTful APIs, and more.",
+    "date": "2025-03-26",
+    "endDate": "2025-04-05",
+    "location": "madurai",
+    "registrationLink": "",
+    "image": "",
+    "isUpcoming": false
+  }
+]

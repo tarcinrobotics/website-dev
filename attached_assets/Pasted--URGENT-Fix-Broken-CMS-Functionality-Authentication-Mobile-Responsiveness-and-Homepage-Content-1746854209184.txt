@@ -1,0 +1,82 @@
+⚠️ URGENT: Fix Broken CMS Functionality, Authentication, Mobile Responsiveness, and Homepage Content
+After testing the site thoroughly, there are multiple critical issues that must be fixed immediately. Please stop assuming these features are working and instead verify and fully test all functionality before confirming completion.
+
+1. 🛠️ CMS Admin Panel – Broken Submission & Layout
+When trying to create a new blog post, event, or job entry, the form UI is broken:
+
+Pages are not scrollable
+
+Layout is not responsive (especially on smaller screens)
+
+After clicking “Create,” I get a 401 error:
+
+css
+Copy
+Edit
+Failed to create blog post: 401
+{
+  "message": "authentication required"
+}
+✅ Fix Required:
+
+Make admin dashboard fully scrollable and responsive
+
+Ensure forms are usable on both desktop and mobile
+
+Make sure authentication tokens (JWT) are:
+
+Stored in localStorage after login
+
+Sent in every request as Authorization: Bearer <token>
+
+Fix backend route protections so authenticated users don’t receive 401 errors
+
+Validate all CRUD operations (Create, Edit, Delete) actually modify content in JSON files or DB
+
+2. 📱 Entire Site – Not Mobile Responsive
+The public-facing site breaks on mobile or small screen sizes.
+
+Layouts overflow, fonts are unscaled, and sections don’t stack properly.
+
+✅ Fix Required:
+
+Apply responsive CSS using flexbox/grid and media queries
+
+Test all pages at breakpoints: 768px, 600px, 375px
+
+Ensure buttons, menus, and forms scale properly
+
+3. 🧱 Homepage – Missing Hero & Narrative Section Content
+The hero section and below-the-fold narrative/content sections are empty or filled with placeholders.
+
+✅ Fix Required:
+
+Fill the hero section with appropriate headline, subtext, and a call-to-action button that matches the site's theme
+
+Populate the narrative/story/mission sections below the hero with sample real-looking content aligned with the site's purpose (e.g., S2P community, services, value propositions)
+
+Ensure content is readable and styled properly on both light and dark backgrounds
+
+4. ⬇️ Hero Scroll-Down Button – Non-Functional
+The scroll-down icon or button in the hero section does nothing.
+
+✅ Fix Required:
+
+Make the scroll-down button smooth scroll to the next content section on the homepage
+
+Use anchor link (#section-id) or JS (window.scrollTo) with behavior: 'smooth'
+
+✅ Expected Result After Fixes:
+Admin panel works fully on all screen sizes
+
+Scroll and layout issues in admin forms are resolved
+
+Blog, Events, and Careers can be created with no 401 errors
+
+Content updates reflect on the frontend
+
+Hero and narrative sections on the homepage are filled and look polished
+
+Entire site and CMS are responsive across all devices
+
+Scroll-down button in the hero section takes user to next section

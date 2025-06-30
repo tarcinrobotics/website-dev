@@ -1,0 +1,99 @@
+We are in the middle of developing a website, but there are multiple issues that need immediate attention to ensure a fully functional, visually consistent, and content-complete platform. Below is a list of issues and tasks that need to be fixed and completed:
+
+🔧 1. Homepage Issues
+Several homepage sections are either not visible or contain incomplete/missing content.
+
+Ensure every section is properly structured, filled with relevant text, images, and links.
+
+Fix layout or styling issues that cause visibility problems or make content unreadable.
+
+📁 2. Missing Content and Navigation for Key Sections
+The following buttons do not work correctly due to missing content or broken routing:
+
+View All Products
+
+View All Courses
+
+View All Events
+
+Fix routing for each of these buttons and link them to fully functional listing pages.
+
+Populate those listing pages with full entries for each product, course, and event.
+
+🎓 3. Courses Section – Training and Demos
+Inside the Courses page:
+
+The Training and Demos section is non-functional.
+
+Calendar View and List View are broken or empty.
+
+Implement both views with:
+
+Properly routed data
+
+Upcoming sessions, dates, speakers/trainers
+
+Filters and search functionality (optional but preferred)
+
+📄 4. Missing Dedicated Detail Pages
+Ensure that each Product, Service, Course, and Event has a dedicated detail page that includes:
+
+Title, description, and key highlights
+
+Media: Images, icons, or video thumbnails
+
+Pricing (if applicable)
+
+FAQs or detailed breakdowns
+
+Clear call-to-action buttons: Enroll Now, Buy Now, Register, Learn More, etc.
+
+🎨 5. CSS Styling and UI/UX Bugs
+The index.css file contains variables or references for blue and purple colors, but these are not rendering across the site.
+
+This is causing:
+
+Invisible or broken content
+
+Buttons that are missing styles or unreadable
+
+Inconsistent text colors and backgrounds
+
+Fix the CSS so blue and purple colors are properly applied throughout all components, including:
+
+Headers, footers, navbars
+
+Buttons, cards, and links
+
+Backgrounds and text overlays
+
+🧪 6. UI/UX Quality Pass
+There are multiple visual inconsistencies:
+
+Mismatched font colors on inappropriate backgrounds
+
+Overlapping elements
+
+Broken or non-styled buttons
+
+Conduct a full UI/UX audit and fix:
+
+Color contrast issues
+
+Spacing and alignment problems
+
+Component responsiveness (mobile/tablet/desktop)
+
+Button hover states and transitions
+
+✅ Final Goals
+Every section and component must have complete, rich content.
+
+All views and buttons should be fully interactive and properly routed.
+
+CSS styles should be consistent, accessible, and applied site-wide.
+
+The entire website should be visually polished, bug-free, and user-friendly.
+
+Please regenerate and finalize the site accordingly, ensuring it's ready for full deployment.
+

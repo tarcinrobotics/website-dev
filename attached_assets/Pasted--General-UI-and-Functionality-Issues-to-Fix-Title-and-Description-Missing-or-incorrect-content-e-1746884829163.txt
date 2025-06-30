@@ -1,0 +1,99 @@
+✅ General UI and Functionality Issues to Fix
+Title and Description
+
+Missing or incorrect content — ensure proper metadata is added.
+
+Company Add
+
+Confirm company info is present and displayed correctly on relevant pages.
+
+Home Page – Service Offering Filter
+
+Service filtering not working correctly; validate the logic and fix any broken filtering.
+
+Products Page – Education and Platform Switch
+
+Tabs/switches between "Education" and "Platform" are not working — clicking one should show its relevant content.
+
+Product – Platform Details and School Info
+
+When platform is selected, it should correctly show school/platform details. Fix the conditional rendering or tab switch logic.
+
+Courses > Training Sessions & Demos
+
+No action is triggered when clicking; add functionality or correct navigation handler.
+
+Careers Page – Filter Section
+
+Add missing content and make the filter functional.
+
+🔍 Specific Component-Level Fixes
+Navbar
+Pages Home, Product, Service, and Education are not displaying — ensure routes and component imports are correct.
+
+Hero Section
+Hero content is missing on the following pages:
+
+Home
+
+Product
+
+Education
+
+Contact
+
+Ensure the Hero section component is rendered and receiving proper props/content.
+Example Hero code (already present):
+
+jsx
+Copy
+Edit
+<section className="pt-32 pb-16 md:pt-40 md:pb-24 bg-gradient-to-r from-blue-600 to-purple-600 text-white relative overflow-hidden">
+Home Page
+CTASection: Buttons and content are missing — ensure both are rendered and styled properly.
+
+Product Page
+Flagship Product Section: Filter interaction is broken — clicking a category hides the content.
+
+Reference code (for filtering):
+
+tsx
+Copy
+Edit
+{["All Products", "Robotics", "IoT Devices", "Software", "Educational"].map((category) => (
+  <Button
+    key={category}
+    onClick={() => setActiveCategory(category as Category)}
+    ...
+  >
+    {category}
+  </Button>
+))}
+Ensure the state update correctly renders the associated product content.
+
+Product > Code Asthram
+Clicking does not switch the page — verify navigation handler or routing logic.
+
+About Page > Our Journey (Timeline)
+Timeline is present but not animating or rendering correctly. Ensure:
+
+timelineEvents is properly populated.
+
+motion.div is receiving expected props and animations trigger based on visibility.
+
+Example code for reference:
+
+tsx
+Copy
+Edit
+<div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-gray-200 dark:bg-gray-700"></div>
+
+{timelineEvents.map((event, index) => (
+  <motion.div
+    key={index}
+    ...
+  >
+    {/* Timeline item */}
+  </motion.div>
+))}
+Please update the codebase to reflect these fixes and ensure all sections render correctly with full content and working interactivity.

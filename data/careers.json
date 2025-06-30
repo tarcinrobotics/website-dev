@@ -1,0 +1,23 @@
+[
+  {
+    "id": "920953c3-8ffe-4642-acc2-5b0ca8cb90aa",
+    "isActive": true,
+    "postedDate": "2025-06-20T07:36:23.195Z",
+    "title": "Web Development",
+    "department": "CSE",
+    "location": "madurai",
+    "description": "Job Summary:\nWe are looking for a skilled and passionate Web Developer to join our team. You will be responsible for designing, coding, and improving our company web pages, programs, and applications. As a web developer, you should be able to write clean code and ensure high performance and responsiveness of web applications across devices and platforms.\n\nKey Responsibilities:\nDevelop functional and appealing web applications based on usability and business requirements.\n\nCreate well-designed, testable, and efficient code using HTML, CSS, JavaScript, and other web technologies.\n\nBuild and maintain responsive websites using frameworks like React, Angular, or Vue.\n\nIntegrate RESTful APIs and backend services.\n\nOptimize applications for maximum speed and scalability.\n\nMaintain and improve the company website, monitor performance, and fix bugs.\n\nCollaborate with UI/UX designers, other developers, and stakeholders.\n\nEnsure high quality graphic standards and brand consistency.\n\nStay up to date with emerging technologies and trends.\n\n",
+    "applicationLink": "",
+    "requirements": [
+      "Required Skills and Qualifications:",
+      "Bachelor’s degree in Computer Science, Information Technology, or related field (or equivalent experience).",
+      "Proficiency in front-end technologies like HTML5, CSS3, JavaScript, and modern JavaScript libraries/frameworks.",
+      "Experience with backend technologies (Node.js, PHP, Python, or similar).",
+      "Knowledge of database systems like MySQL, MongoDB, or PostgreSQL.",
+      "Familiarity with version control tools like Git.",
+      "Understanding of SEO principles and responsive design.",
+      "Ability to work independently and in a team environment.",
+      "Strong problem-solving and communication skills."
+    ]
+  }
+]

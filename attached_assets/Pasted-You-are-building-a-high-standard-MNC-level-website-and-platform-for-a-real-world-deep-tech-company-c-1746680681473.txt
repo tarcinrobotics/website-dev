@@ -1,0 +1,91 @@
+You are building a high-standard MNC-level website and platform for a real-world deep-tech company called Tarcin Robotic LLP, based in Madurai, Tamil Nadu. You must deeply understand the company’s expertise, services, products, tone, user base, operations, and growth plans to create everything from navigation, structure, and layout to content flow, service pages, landing sections, banners, call-to-actions, and even forms. Below is the exact profile of the company, described in authentic detail. This represents the most reliable source of truth for all decisions moving forward.
+
+✅ Company Identity
+Tarcin Robotic LLP is a deep-tech startup grounded in execution and innovation, operating from Madurai, Tamil Nadu. The company focuses on delivering scalable, product-driven, and service-based technology solutions across a wide spectrum of industries. While EdTech is a part of its offerings, it is not the core identity—the company positions itself primarily as a deep-tech solution builder.
+
+✅ Core Technology Domains
+Tarcin operates across a diversified and interconnected technology stack:
+
+Robotics – Prototyping and building autonomous systems, surveillance robots, and humanoids.
+
+IoT & Embedded Systems – End-to-end smart automation systems, including demo kits and deployable prototypes like smart home mini kits.
+
+AI & Data Science – Predictive systems, analytics-driven software, and exploratory agentic AI integrations.
+
+Observability & Analytics – Building intelligent dashboards, monitoring tools, and data intelligence platforms.
+
+Custom Software Development – Tailored CRM/ERP systems, automation backends, and internal business solutions.
+
+EdTech & Community Products – Tools and content that support skill-building, curriculum alignment, and STEM growth for students.
+
+✅ Flagship Products
+Code Asthram – A logic-based, gamified coding education platform aimed at schools and colleges. Focuses on algorithmic thinking, syntax-free learning, and interactive curriculum experiences.
+
+SproutED LMS – A lightweight, modular learning management system built for schools and training institutions, with classroom tracking and integration features.
+
+Tarcin CRM / ChargeHR – Internal and customizable ERP/CRM systems with analytics layers, tailored for organizations.
+
+Smart Home Mini Kit – A deployable, IoT-driven demonstration unit for end-to-end home automation with data visualization and control dashboards.
+
+STEM Kits & Books – Hardware kits and Python + Embedded learning books designed for Grades 3–9. Aligns with NEP and supports early technical fluency.
+
+✅ Agentic AI Initiatives
+Actively developing and integrating agentic AI systems into existing products (CRM, LMS, coding tools) for automation, analytics, and personalized learning/monitoring.
+
+Ongoing experiments in AI-driven feedback loops, learning assistants, and observability-focused agents.
+
+✅ Institutional & Community Presence
+Connected with 50+ institutions across Tamil Nadu—engineering colleges, schools, and private academies.
+
+Engaged with over 10,000+ students via workshops, training, and projects.
+
+Running multiple Centre of Excellency (CoE) setups across colleges focusing on robotics, embedded systems, and AI.
+
+Hosts S2P (Student to Professional) community that filters, mentors, and deploys skilled students into real-world client and internal projects.
+
+Conducted numerous competitions, hackathons, ideathons, and challenges for student engagement and talent benchmarking.
+
+✅ Service Offerings
+Tarcin Robotic LLP offers a unique mix of product + service + community. Their key service verticals include:
+
+Custom ERP/CRM & Automation Solutions for startups, schools, and small enterprises.
+
+Product Development as a Service (PDaaS) – Outsourced, full-cycle product building via internal and student-involved teams.
+
+Corporate & Institutional Training – Short-term to year-long skilling programs in Python, AI, IoT, Data Science, OpenCV, and more.
+
+IoT Deployment & Integration – Custom home/building/enterprise automation with analytics dashboards.
+
+AI/Data Integrations – Data pipelines, dashboards, visualizations, and embedded ML models.
+
+Educational Tools & Content Licensing – Licensing of Code Asthram, SproutED, and STEM kits for school networks.
+
+✅ Philosophy & Tone
+Grounded, Tamil-rooted, non-flashy in tone.
+
+Prioritizes execution over hype, regional relevance over global polish, and impact over vanity.
+
+Leverages grassroots student ecosystems to drive innovation without expensive overhead.
+
+Views education not as a standalone business but as a strategic talent funnel into real tech building.
+
+✅ Infrastructure Notes
+Operates from a modest physical space in Madurai.
+
+Currently bootstrapped with plans to seek funding for marketing, sales infrastructure, and scale expansion.
+
+Currently paused projects include a humanoid robot and robotic surveillance dog, pending funding or strategic partnerships.
+
+✅ Goals Moving Forward
+Scale Code Asthram and SproutED into major school networks.
+
+Expand the S2P Community into a self-sustaining, institutionalized pipeline for innovation.
+
+Strengthen CRM/ERP product suite and land more B2B clients.
+
+Build a strong agentic AI backbone across internal tools.
+
+Increase outreach via product showcases, fairs, and investor/partner engagement.
+
+Use this detailed profile as your master source to generate a complete web platform that matches the company’s tone, audience, structure, and potential. Every section of the site, every page, and every call-to-action must reflect these real capabilities—not assumptions.
+

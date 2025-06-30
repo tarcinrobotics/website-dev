@@ -1,0 +1,87 @@
+⚠️ Prompt: Fix Admin "Settings" Page, Fill Homepage Content, Rework All Broken Buttons
+The CMS is now functioning for blog, events, and careers — thank you. However, the following issues are still unresolved or newly discovered. Please address them completely and verify all fixes work in the browser:
+
+1. 🛠️ Admin Panel – “Settings” Page Broken
+When I click on the “Settings” option in the admin sidebar, it shows:
+
+mathematica
+Copy
+Edit
+Page Not Found
+✅ Fix Required:
+
+Implement the /admin/dashboard/settings route if it's meant to exist
+
+If it was mistakenly left in the menu, either:
+
+Remove it, or
+
+Implement a real settings page that includes configurable options like:
+
+Site title
+
+Admin profile
+
+Optional homepage content overrides (if you want to be advanced)
+
+2. 🧱 Homepage – Hero and Narrative Sections Still Empty
+The hero section and the content sections below (like mission, value, community intro, etc.) are still empty or using placeholder text.
+
+✅ Fix Required:
+
+Add proper content to the hero section:
+
+Headline (e.g., “Empowering the S2P Community”)
+
+Subtext/Tagline (e.g., “Join our mission to connect and grow together”)
+
+CTA Button (e.g., “Explore More” or “Join the Movement”)
+
+Fill below-the-hero sections with relevant narrative content such as:
+
+Mission statement
+
+Services overview
+
+Key community highlights
+
+Ensure the scroll-down button in the hero section now smoothly scrolls to the next filled section
+
+3. 🧪 UI Audit – Broken / Cut-off Buttons Across Site
+Several buttons on both the admin dashboard and public pages:
+
+Are cut off, misaligned, or clipped on different screen sizes
+
+Don’t respond to clicks or have no visible feedback/action
+
+✅ Fix Required:
+
+Perform a site-wide audit of all <button> elements
+
+Fix visual and layout issues (e.g., padding, overflow, alignment)
+
+Ensure every button:
+
+Is responsive and accessible
+
+Has visible hover/focus styles
+
+Performs a valid action or links correctly
+
+Test all major buttons across:
+
+Admin (Create, Save, Edit, Delete)
+
+Homepage (Hero CTA, Learn More, etc.)
+
+Navigation (internal routing buttons/links)
+
+✅ Once completed, I expect:
+
+Admin “Settings” either works or is removed
+
+Homepage hero and narrative sections are meaningfully filled
+
+Scroll button in hero works properly
+
+All buttons are fully styled, clickable, and mobile-compatible

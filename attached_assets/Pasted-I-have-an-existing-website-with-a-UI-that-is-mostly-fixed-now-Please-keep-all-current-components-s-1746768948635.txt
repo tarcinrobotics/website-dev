@@ -1,0 +1,33 @@
+I have an existing website with a UI that is mostly fixed now. Please keep all current components, styles, layout, and tone exactly as they are, and now integrate the following additional pages and features into the project:
+
+New Pages to Be Added:
+
+Blog Page – Display dynamic blog entries with title, date, author, summary, and "Read More" button that links to full content.
+
+Events Page – Show upcoming and past events with date, location, description, and optional registration link.
+
+Careers Page – List available job openings with title, department, location, description, and "Apply Now" buttons.
+
+S2P Community Page – A dedicated page introducing the S2P community, its mission, and user stories. Include a section to allow users to submit their story or get involved.
+
+CMS Functionality Requirements:
+
+Implement a simple admin interface accessible only through a secret route (e.g., /admin-secret).
+
+This admin panel must have authentication (simple password-based or JWT-based).
+
+Allow admins to add, edit, and delete blog posts, events, and job listings through this panel.
+
+All updates made via the admin panel must reflect immediately on the frontend without requiring code changes or deployments.
+
+Technical Requirements:
+
+Use a headless CMS-like structure (local JSON-based DB or lightweight backend like Express.js + file storage, or a flat-file CMS structure if no external DB is used).
+
+Ensure full frontend-backend integration so that content updates from admin reflect immediately on the live site.
+
+Pages must be fully responsive, aligned with the current design, and maintain the same theme, fonts, spacing, colors, and section structure.
+
+Use modern React (or Next.js) conventions if using those frameworks (e.g., useState, useEffect, dynamic routing, etc.).
+
+Please generate all necessary files (frontend pages, admin panel components, backend API routes or logic, styles, and data handling) in clean, modular, and readable code. Let me know if you need further project context.

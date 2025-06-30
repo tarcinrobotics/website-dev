@@ -1,0 +1,24 @@
+[
+  {
+    "id": "967db177-c28b-432c-95b6-6b64a34726ca",
+    "isUpcoming": true,
+    "title": "hackathon",
+    "description": "hackathon srm",
+    "date": "2025-05-10",
+    "endDate": "2025-05-15",
+    "location": "srm ",
+    "registrationLink": "",
+    "image": "https://raw.githubusercontent.com/mohamedarsath18/images/refs/heads/main/Currriculum%20circuit%20images/Ultrasonic.jpg"
+  },
+  {
+    "id": "a7070e91-7836-4d74-ae42-e3194dfae4fc",
+    "isUpcoming": true,
+    "title": "arsath",
+    "description": "arsath",
+    "date": "2025-05-24",
+    "endDate": "2025-05-24",
+    "location": "madurai",
+    "registrationLink": "",
+    "image": ""
+  }
+]
